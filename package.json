@@ -1,6 +1,6 @@
 {
   "name": "khpay",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Official KHPay command-line tool and SDKs. Tail logs, fire test transactions, inspect webhooks.",
   "bin": {
     "khpay": "cli/bin/khpay.js"
