@@ -7,6 +7,7 @@
   },
   "files": [
     "cli/bin/khpay.js",
+    "cli/package.json",
     "cli/README.md",
     "README.md",
     "LICENSE"
