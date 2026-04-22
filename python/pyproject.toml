@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "khpay"
+version = "0.1.0"
+description = "Official KHPay SDK + CLI — create payments, tail logs, fire test transactions."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "KHPay", email = "support@khpay.site" }]
+keywords = ["khpay", "payments", "aba", "cambodia", "khqr", "sdk", "cli"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Office/Business :: Financial",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://khpay.site"
+Documentation = "https://khpay.site/api-documentation.php"
+Source = "https://github.com/khpay/khpay"
+
+[project.scripts]
+khpay = "khpay.cli:main"
+
+[tool.setuptools]
+packages = ["khpay"]

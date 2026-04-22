@@ -1,0 +1,19 @@
+{
+  "name": "khpay",
+  "version": "0.1.0",
+  "description": "Official KHPay command-line tool for developers. Tail logs, fire test transactions, inspect webhooks.",
+  "bin": {
+    "khpay": "./bin/khpay.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "KHPay",
+  "license": "MIT",
+  "keywords": ["khpay", "cambodia", "payments", "cli", "aba", "khqr"],
+  "homepage": "https://khpay.site/api-documentation#cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khpay/khpay-cli"
+  }
+}
